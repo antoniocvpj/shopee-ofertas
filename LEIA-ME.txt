@@ -1,0 +1,26 @@
+SITE DE OFERTAS SHOPEE (automático)
+
+O que faz: todo dia busca na API da Shopee os produtos com bom ganho e muitas vendas,
+atualiza o site com seus links de afiliado e (opcional) cria pins no Pinterest.
+
+PASSO A PASSO (uma vez só)
+1. Crie uma conta grátis em github.com e um repositório novo chamado "shopee-ofertas" (público).
+2. Envie todos os arquivos desta pasta para o repositório (botão "Add file > Upload files").
+   Atenção: a pasta escondida .github precisa subir junto.
+3. No repositório: Settings > Secrets and variables > Actions > New repository secret.
+   Crie estes dois: SHOPEE_APP_ID e SHOPEE_SECRET (os dados da sua API de afiliados).
+   Depois, quando tiver Pinterest: PINTEREST_TOKEN e PINTEREST_BOARD_ID.
+4. Settings > Pages: Source = "Deploy from a branch", Branch = main, pasta = /docs.
+5. Aba Actions > "Atualizar ofertas" > Run workflow. Em 1 a 2 minutos o site aparece.
+6. Edite o config.json: troque site_nome e coloque o endereço do seu site em site_url.
+
+Daí em diante roda sozinho todo dia às 6h.
+
+TESTAR O VISUAL NO COMPUTADOR: python atualizar.py --demo  (abre docs/index.html)
+
+OBSERVAÇÕES
+- Não escreva o Secret dentro do config.json se o repositório for público.
+- Se a Shopee mudar a API, o robô mostra o erro na aba Actions.
+- O Pinterest exige criar um app de desenvolvedor e pedir acesso à API; isso é opcional
+  e pode ser feito depois. O site funciona sem ele.
+- Pins levam ao seu site, que tem o aviso de afiliado exigido pela transparência.

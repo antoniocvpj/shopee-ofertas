@@ -1,0 +1,13 @@
+{
+  "site_nome": "Achados em Alta",
+  "site_descricao": "Os produtos mais vendidos da Shopee, atualizados todo dia.",
+  "site_url": "https://SEU-USUARIO.github.io/shopee-ofertas",
+  "shopee_app_id": "",
+  "shopee_secret": "",
+  "quantidade_produtos": 36,
+  "vendas_minimas": 100,
+  "nota_minima": 4.5,
+  "pinterest_token": "",
+  "pinterest_board_id": "",
+  "pins_por_execucao": 5
+}
