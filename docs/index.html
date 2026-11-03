@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Achados em Alta</title><meta name="description" content="Os produtos mais vendidos da Shopee, atualizados todo dia.">
+<style>
+:root{--fundo:#eef1f4;--tinta:#142033;--suave:#5b677a;--acento:#e8512b;--cartao:#fff}
+@media(prefers-color-scheme:dark){:root{--fundo:#0f1722;--tinta:#e8edf3;--suave:#9aa7b8;--cartao:#182233}}
+*{box-sizing:border-box}body{margin:0;background:var(--fundo);color:var(--tinta);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:48px 20px 24px;max-width:1100px;margin:auto}
+h1{font-size:clamp(2rem,6vw,3.4rem);line-height:1.05;margin:0 0 10px;letter-spacing:-.02em}
+header p{color:var(--suave);margin:0 0 20px;max-width:46ch}
+input{width:100%;max-width:420px;padding:12px 14px;border-radius:10px;border:2px solid var(--suave);background:var(--cartao);color:var(--tinta);font:inherit}
+input:focus-visible,.item:focus-visible{outline:3px solid var(--acento);outline-offset:2px}
+main{max-width:1100px;margin:auto;padding:0 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+.item{background:var(--cartao);border-radius:14px;overflow:hidden;text-decoration:none;color:inherit;display:flex;flex-direction:column;border:1px solid rgba(120,130,150,.25)}
+.foto{aspect-ratio:1;background:rgba(120,130,150,.15)}.foto img{width:100%;height:100%;object-fit:cover;display:block}
+.sem-foto{width:100%;height:100%}
+.info{padding:12px 14px 16px;display:flex;flex-direction:column;gap:4px;flex:1}
+h3{font-size:.95rem;font-weight:600;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.preco{font-size:1.25rem;font-weight:800;margin:4px 0 0}.meta{font-size:.8rem;color:var(--suave);margin:0}
+.botao{margin-top:auto;padding-top:10px;color:var(--acento);font-weight:700}
+.vazio{display:none;padding:0 20px;max-width:1100px;margin:auto;color:var(--suave)}
+footer{max-width:1100px;margin:auto;padding:20px;color:var(--suave);font-size:.85rem;border-top:1px solid rgba(120,130,150,.3)}
+@media(hover:hover){.item:hover{border-color:var(--acento)}}
+</style></head><body>
+<header><h1>Achados em Alta</h1><p>Os produtos mais vendidos da Shopee, atualizados todo dia.</p>
+<input id="busca" type="search" placeholder="Buscar produto" aria-label="Buscar produto"></header>
+<main id="lista"><a class="item" href="https://s.shopee.com.br/6q200XglAh" target="_blank" rel="sponsored noopener" data-nome="macaquinho fitness alcinha costas abertas zero transparencia">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lm-mmj2atq4ltdz52" alt="Macaquinho Fitness Alcinha Costas Abertas Zero Transparencia" loading="lazy"></div>
+<div class="info"><h3>Macaquinho Fitness Alcinha Costas Abertas Zero Transparencia</h3>
+<p class="preco">R$ 229,99</p>
+<p class="meta">1,9 mil vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/LoWL3ujZY" target="_blank" rel="sponsored noopener" data-nome="omeleteira agratto mr cheff inox redonda 127v / 220v">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ll-mmc8h9uyaoee6b" alt="Omeleteira Agratto Mr Cheff Inox Redonda 127v / 220v" loading="lazy"></div>
+<div class="info"><h3>Omeleteira Agratto Mr Cheff Inox Redonda 127v / 220v</h3>
+<p class="preco">R$ 115,90</p>
+<p class="meta">333 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/BV64IEw9a" target="_blank" rel="sponsored noopener" data-nome="kit calças jeans masculina skinny com elastano original direto da fabrica nf">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m8k6ynton21d33" alt="Kit calças jeans masculina skinny com elastano original direto da fabrica NF" loading="lazy"></div>
+<div class="info"><h3>Kit calças jeans masculina skinny com elastano original direto da fabrica NF</h3>
+<p class="preco">R$ 115,99</p>
+<p class="meta">239 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/1BfrzFZUZ" target="_blank" rel="sponsored noopener" data-nome="lavadora de alta pressão vonder c/ rodas, 1.600 lbf/pol² 1400w super potente - original vonder">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-m86573g91ngx80" alt="Lavadora De Alta Pressão Vonder C/ Rodas, 1.600 lbf/pol² 1400w Super Potente - Original Vonder" loading="lazy"></div>
+<div class="info"><h3>Lavadora De Alta Pressão Vonder C/ Rodas, 1.600 lbf/pol² 1400w Super Potente - Original Vonder</h3>
+<p class="preco">R$ 389,99</p>
+<p class="meta">231 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/8KqnnIjqZt" target="_blank" rel="sponsored noopener" data-nome="kit calça jeans skinny masculina com lycra nf">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134211-7r98o-lyy5tis0j9n998" alt="Kit Calça Jeans Skinny Masculina Com Lycra Nf" loading="lazy"></div>
+<div class="info"><h3>Kit Calça Jeans Skinny Masculina Com Lycra Nf</h3>
+<p class="preco">R$ 59,99</p>
+<p class="meta">2,6 mil vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9APumpXsR3" target="_blank" rel="sponsored noopener" data-nome="jogo de panelas 10 peças antiaderente conjunto frigideira fervedor tampa de vidro cor coffee cappuccino kit talheres">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m6-ms42s3kelced28" alt="Jogo De Panelas 10 Peças Antiaderente Conjunto Frigideira Fervedor tampa de vidro Cor Coffee Cappuccino Kit Talheres" loading="lazy"></div>
+<div class="info"><h3>Jogo De Panelas 10 Peças Antiaderente Conjunto Frigideira Fervedor tampa de vidro Cor Coffee Cappuccino Kit Talheres</h3>
+<p class="preco">R$ 199,99</p>
+<p class="meta">9,3 mil vendidos, nota 4.7</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/1Lh3SRAUmh" target="_blank" rel="sponsored noopener" data-nome="massageador de pescoço e ombros portátil 3d com calor relaxante massagem profunda">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820mb-mps6km6k5xc1fc" alt="Massageador de Pescoço e Ombros Portátil 3D Com Calor Relaxante Massagem Profunda" loading="lazy"></div>
+<div class="info"><h3>Massageador de Pescoço e Ombros Portátil 3D Com Calor Relaxante Massagem Profunda</h3>
+<p class="preco">R$ 102,99</p>
+<p class="meta">534 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/W7wSuDfTc" target="_blank" rel="sponsored noopener" data-nome="kit 4 blusas feminina ribana canelado básica casual estilosa tendência verão">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ma-mqwi04iud4w550" alt="Kit 4 Blusas Feminina Ribana Canelado Básica Casual Estilosa Tendência Verão" loading="lazy"></div>
+<div class="info"><h3>Kit 4 Blusas Feminina Ribana Canelado Básica Casual Estilosa Tendência Verão</h3>
+<p class="preco">R$ 69,90</p>
+<p class="meta">1,2 mil vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/30pHRV49PN" target="_blank" rel="sponsored noopener" data-nome="kit câmera de segurança lente dupla ip66 wi-fi 360° sensor movimento visão noturna+microsd 16gb">
+<div class="foto"><img src="https://cf.shopee.com.br/file/sg-11134201-8226n-mhcd03fvgg0961" alt="KIT Câmera De Segurança Lente Dupla IP66 Wi-Fi 360° Sensor Movimento Visão Noturna+MICROSD 16GB" loading="lazy"></div>
+<div class="info"><h3>KIT Câmera De Segurança Lente Dupla IP66 Wi-Fi 360° Sensor Movimento Visão Noturna+MICROSD 16GB</h3>
+<p class="preco">R$ 149,66</p>
+<p class="meta">1,7 mil vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9KjL3bMTJC" target="_blank" rel="sponsored noopener" data-nome="árvore de natal pinheiro 1.80m 2.10m 2.40m 3.00m super cheia premium luxo galhos cheios verde">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-msgd4t6cum869e" alt="Árvore De Natal Pinheiro 1.80m 2.10m 2.40m 3.00m Super Cheia Premium Luxo Galhos Cheios Verde" loading="lazy"></div>
+<div class="info"><h3>Árvore De Natal Pinheiro 1.80m 2.10m 2.40m 3.00m Super Cheia Premium Luxo Galhos Cheios Verde</h3>
+<p class="preco">R$ 168,89</p>
+<p class="meta">190 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/1gJtr30QeN" target="_blank" rel="sponsored noopener" data-nome="kit estética automotiva vonixx v-floc tok final intense 240ml pneu pretinho pano pincel e aplicador">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lt-mqhpbloq1q0x0e" alt="Kit Estética Automotiva Vonixx V-Floc Tok Final Intense 240ml Pneu Pretinho Pano Pincel E Aplicador" loading="lazy"></div>
+<div class="info"><h3>Kit Estética Automotiva Vonixx V-Floc Tok Final Intense 240ml Pneu Pretinho Pano Pincel E Aplicador</h3>
+<p class="preco">R$ 104,11</p>
+<p class="meta">2,7 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/AAIRyfcrrC" target="_blank" rel="sponsored noopener" data-nome="inova bateria portátil power bank 20.000mah/10.000mah universal carregador 22,5w com displaya visor do nível da bateria">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-7r98o-manzmd5jc0l56b" alt="Inova Bateria Portátil Power Bank 20.000mah/10.000mah Universal carregador 22,5W Com Displaya Visor do nível da bateria" loading="lazy"></div>
+<div class="info"><h3>Inova Bateria Portátil Power Bank 20.000mah/10.000mah Universal carregador 22,5W Com Displaya Visor do nível da bateria</h3>
+<p class="preco">R$ 119,90</p>
+<p class="meta">1,2 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/906UaWhJE5" target="_blank" rel="sponsored noopener" data-nome="soprador térmico 2000w até 600°c 110v-220v ar quente 2 estágios temperatura sparkbr profissional">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m8-mtdy7aox6c5f08" alt="Soprador Térmico 2000W Até 600°C 110V-220V Ar Quente 2 Estágios Temperatura SparkBr Profissional" loading="lazy"></div>
+<div class="info"><h3>Soprador Térmico 2000W Até 600°C 110V-220V Ar Quente 2 Estágios Temperatura SparkBr Profissional</h3>
+<p class="preco">R$ 99,99</p>
+<p class="meta">1,5 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/7puXGqSBLh" target="_blank" rel="sponsored noopener" data-nome="garrafa térmica nórdica berlim café 1l cabo de madeira luxo mesa posta canelado dourado">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820l8-mtfqfhd5f1tu1b" alt="Garrafa Térmica Nórdica Berlim Café 1L Cabo De Madeira Luxo Mesa Posta Canelado Dourado" loading="lazy"></div>
+<div class="info"><h3>Garrafa Térmica Nórdica Berlim Café 1L Cabo De Madeira Luxo Mesa Posta Canelado Dourado</h3>
+<p class="preco">R$ 59,90</p>
+<p class="meta">822 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/2LZaeGxtIR" target="_blank" rel="sponsored noopener" data-nome="parafusadeira furadeira 25v nakasaki sem fio a bateria profissional kit completo com maleta">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mv3iib53t4owb4" alt="Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta" loading="lazy"></div>
+<div class="info"><h3>Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit Completo com Maleta</h3>
+<p class="preco">R$ 89,99</p>
+<p class="meta">3,6 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/3VlY2Q2FOY" target="_blank" rel="sponsored noopener" data-nome="kit 3 shorts de tactel com elastano masculino básico liso moda praia do p ao g1">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-mg6k1iw63bpceb" alt="Kit 3 Shorts de Tactel Com Elastano Masculino Básico Liso Moda Praia do P ao G1" loading="lazy"></div>
+<div class="info"><h3>Kit 3 Shorts de Tactel Com Elastano Masculino Básico Liso Moda Praia do P ao G1</h3>
+<p class="preco">R$ 74,90</p>
+<p class="meta">1,7 mil vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/1Lh3SR1hKH" target="_blank" rel="sponsored noopener" data-nome="creatina monohidratada pura 300g dark lab - 100% pura">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820l8-ms0du9lcw8p1d3" alt="Creatina Monohidratada Pura 300g Dark Lab - 100% Pura" loading="lazy"></div>
+<div class="info"><h3>Creatina Monohidratada Pura 300g Dark Lab - 100% Pura</h3>
+<p class="preco">R$ 39,90</p>
+<p class="meta">4,7 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/6q2050VzNT" target="_blank" rel="sponsored noopener" data-nome="cascata 400 led&#x27;s 10 metros fixo ou 8 funções 110v/220v decoração interna ou externa">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ls-mtdy9yqpiltv31" alt="Cascata 400 Led&#x27;s 10 Metros Fixo ou 8 Funções 110v/220v Decoração Interna ou Externa" loading="lazy"></div>
+<div class="info"><h3>Cascata 400 Led&#x27;s 10 Metros Fixo ou 8 Funções 110v/220v Decoração Interna ou Externa</h3>
+<p class="preco">R$ 64,00</p>
+<p class="meta">518 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/80DxOgcJnm" target="_blank" rel="sponsored noopener" data-nome="creatina monohidratada pura 1kg, 500g, 600, 300g, 300g refil e 150g - dark lab">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ld-ms0e8jfsnb45e1" alt="Creatina Monohidratada Pura 1kg, 500g, 600, 300g, 300g Refil e 150g - Dark Lab" loading="lazy"></div>
+<div class="info"><h3>Creatina Monohidratada Pura 1kg, 500g, 600, 300g, 300g Refil e 150g - Dark Lab</h3>
+<p class="preco">R$ 32,90</p>
+<p class="meta">11,7 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/8pn4ODZ971" target="_blank" rel="sponsored noopener" data-nome="pijama baby doll sensual top doll curtinho sensual confortável sem bojo completo oferta envio 24h">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lk-mut820s4bawyb0" alt="Pijama Baby Doll Sensual Top Doll Curtinho Sensual Confortável Sem Bojo Completo Oferta Envio 24H" loading="lazy"></div>
+<div class="info"><h3>Pijama Baby Doll Sensual Top Doll Curtinho Sensual Confortável Sem Bojo Completo Oferta Envio 24H</h3>
+<p class="preco">R$ 39,00</p>
+<p class="meta">190 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/AUvINHbbBE" target="_blank" rel="sponsored noopener" data-nome="boné brasil bordado alto relevo qualidade premium">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ma-mtyfzpajej9c0b" alt="Boné Brasil Bordado Alto Relevo Qualidade Premium" loading="lazy"></div>
+<div class="info"><h3>Boné Brasil Bordado Alto Relevo Qualidade Premium</h3>
+<p class="preco">R$ 49,90</p>
+<p class="meta">363 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/AKbsAycEWD" target="_blank" rel="sponsored noopener" data-nome="carregador portátil mini power bank 10000mah com 02 saídas tipo-c / lightning">
+<div class="foto"><img src="https://cf.shopee.com.br/file/sg-11134201-81zvk-mik9ovwbhszk62" alt="Carregador Portátil Mini Power Bank 10000mAh Com 02 Saídas Tipo-C / Lightning" loading="lazy"></div>
+<div class="info"><h3>Carregador Portátil Mini Power Bank 10000mAh Com 02 Saídas Tipo-C / Lightning</h3>
+<p class="preco">R$ 31,99</p>
+<p class="meta">3,1 mil vendidos, nota 4.6</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9V2lBRWbkx" target="_blank" rel="sponsored noopener" data-nome="árvore de natal 1,50cm 400 galhos pinheiro verde resistente desmontável pé de ferro e plástico">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lh-msn53tgvj952b7" alt="Árvore de Natal 1,50cm 400 Galhos Pinheiro Verde Resistente Desmontável Pé de Ferro e Plástico" loading="lazy"></div>
+<div class="info"><h3>Árvore de Natal 1,50cm 400 Galhos Pinheiro Verde Resistente Desmontável Pé de Ferro e Plástico</h3>
+<p class="preco">R$ 85,90</p>
+<p class="meta">641 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/4LKf1wz4hV" target="_blank" rel="sponsored noopener" data-nome="kit 3 bermuda masculina 2 em 1 treino academia dry fit com compressão">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lx-mto8pucuzl6pa0" alt="KIT 3 Bermuda Masculina 2 em 1 Treino Academia Dry Fit com Compressão" loading="lazy"></div>
+<div class="info"><h3>KIT 3 Bermuda Masculina 2 em 1 Treino Academia Dry Fit com Compressão</h3>
+<p class="preco">R$ 42,90</p>
+<p class="meta">150 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/AAIS38JIcR" target="_blank" rel="sponsored noopener" data-nome="kit 3 bermudas masculina short tactel elastano masculino com logo refletivo">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134201-820l4-mt5ycguqd8ud8c" alt="kit 3 Bermudas Masculina short tactel elastano masculino com logo refletivo" loading="lazy"></div>
+<div class="info"><h3>kit 3 Bermudas Masculina short tactel elastano masculino com logo refletivo</h3>
+<p class="preco">R$ 59,90</p>
+<p class="meta">385 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/8KqnnIb37o" target="_blank" rel="sponsored noopener" data-nome="jogo de copos long drink natal aruba 465ml nadir vidro decorado natalino ceia festa presente kit 6 unidades">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820l8-mu2emxgv2dj7f6" alt="Jogo de Copos Long Drink Natal Aruba 465ml Nadir Vidro Decorado Natalino Ceia Festa Presente Kit 6 Unidades" loading="lazy"></div>
+<div class="info"><h3>Jogo de Copos Long Drink Natal Aruba 465ml Nadir Vidro Decorado Natalino Ceia Festa Presente Kit 6 Unidades</h3>
+<p class="preco">R$ 89,99</p>
+<p class="meta">126 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9pfba3e8X2" target="_blank" rel="sponsored noopener" data-nome="creatina ultra pote 300g - ftw">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-81z1k-meourptjpj4194" alt="Creatina Ultra Pote 300g - FTW" loading="lazy"></div>
+<div class="info"><h3>Creatina Ultra Pote 300g - FTW</h3>
+<p class="preco">R$ 29,90</p>
+<p class="meta">3,8 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/4Ve5EFyRMW" target="_blank" rel="sponsored noopener" data-nome="alvejante percarbonato de sódio calisul 99% puro sem cloro limpeza roupa branca colorida clareador tira mancha">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-ms6z4y7egao720" alt="Alvejante Percarbonato de Sódio Calisul 99% Puro Sem Cloro Limpeza Roupa Branca Colorida Clareador Tira Mancha" loading="lazy"></div>
+<div class="info"><h3>Alvejante Percarbonato de Sódio Calisul 99% Puro Sem Cloro Limpeza Roupa Branca Colorida Clareador Tira Mancha</h3>
+<p class="preco">R$ 39,90</p>
+<p class="meta">676 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9pfbeWKZIH" target="_blank" rel="sponsored noopener" data-nome="garrafa inox térmica 350ml/600ml/800ml/1000ml com capinha protetora de silicone antiderrapante">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mszzd86e3ocn17" alt="Garrafa Inox Térmica 350ML/600ML/800ML/1000ML Com Capinha Protetora De Silicone Antiderrapante" loading="lazy"></div>
+<div class="info"><h3>Garrafa Inox Térmica 350ML/600ML/800ML/1000ML Com Capinha Protetora De Silicone Antiderrapante</h3>
+<p class="preco">R$ 31,99</p>
+<p class="meta">566 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/1W0Tek13zI" target="_blank" rel="sponsored noopener" data-nome="fone de ouvido wireless sem fio bluetooth 760bt microfone pure bass cancelamento ativo de ruído mp3">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m1-mtdw9dzq5vcw6e" alt="Fone de ouvido Wireless sem fio Bluetooth 760BT Microfone Pure Bass Cancelamento Ativo de Ruído Mp3" loading="lazy"></div>
+<div class="info"><h3>Fone de ouvido Wireless sem fio Bluetooth 760BT Microfone Pure Bass Cancelamento Ativo de Ruído Mp3</h3>
+<p class="preco">R$ 39,55</p>
+<p class="meta">1,1 mil vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/AAIRyfU4P9" target="_blank" rel="sponsored noopener" data-nome="árvore de natal 1,50m pinheiro 500 galhos premium tradicional verde">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820lu-mtpe26p8tlvm15" alt="Árvore De Natal 1,50m Pinheiro 500 Galhos Premium Tradicional Verde" loading="lazy"></div>
+<div class="info"><h3>Árvore De Natal 1,50m Pinheiro 500 Galhos Premium Tradicional Verde</h3>
+<p class="preco">R$ 64,90</p>
+<p class="meta">743 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/8pn4SgONK3" target="_blank" rel="sponsored noopener" data-nome="fone bluetooth sem fio de ouvido  bt-760 tws macaron headphone fone de ouvido envio imediato">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820mf-mrk5q70ufqx31a" alt="Fone Bluetooth Sem Fio De Ouvido  BT-760 TWS Macaron Headphone Fone de Ouvido Envio Imediato" loading="lazy"></div>
+<div class="info"><h3>Fone Bluetooth Sem Fio De Ouvido  BT-760 TWS Macaron Headphone Fone de Ouvido Envio Imediato</h3>
+<p class="preco">R$ 40,30</p>
+<p class="meta">694 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/8VADzbjDEu" target="_blank" rel="sponsored noopener" data-nome="copo térmico personalizado 473ml one piece laser gravação tampa abridor">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820ll-mu0mxb1ju6m849" alt="Copo Térmico Personalizado 473ml One Piece Laser Gravação Tampa Abridor" loading="lazy"></div>
+<div class="info"><h3>Copo Térmico Personalizado 473ml One Piece Laser Gravação Tampa Abridor</h3>
+<p class="preco">R$ 49,87</p>
+<p class="meta">120 vendidos, nota 5.0</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/9fMBNkels1" target="_blank" rel="sponsored noopener" data-nome="garrafa inox térmica com capinha protetora de silicone antiderrapante">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820m5-mt00jk3e0eme7b" alt="Garrafa Inox Térmica Com Capinha Protetora De Silicone Antiderrapante" loading="lazy"></div>
+<div class="info"><h3>Garrafa Inox Térmica Com Capinha Protetora De Silicone Antiderrapante</h3>
+<p class="preco">R$ 31,99</p>
+<p class="meta">399 vendidos, nota 4.8</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/7VHgsETS1f" target="_blank" rel="sponsored noopener" data-nome="22m cordão de luz solar led natal estrela floco de neve árvore decoração para jardim e varanda">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820mb-msv7hhk4hds754" alt="22M Cordão de Luz Solar LED Natal Estrela Floco de Neve Árvore Decoração para Jardim e Varanda" loading="lazy"></div>
+<div class="info"><h3>22M Cordão de Luz Solar LED Natal Estrela Floco de Neve Árvore Decoração para Jardim e Varanda</h3>
+<p class="preco">R$ 55,00</p>
+<p class="meta">563 vendidos, nota 4.7</p>
+<span class="botao">Ver na Shopee</span></div></a>
+<a class="item" href="https://s.shopee.com.br/3g4yEisobU" target="_blank" rel="sponsored noopener" data-nome="kit 5 ursinho pelúcia pendente de natal enfeite para árvore decoração natalina">
+<div class="foto"><img src="https://cf.shopee.com.br/file/br-11134207-820l5-mv2kl1mz3ncz65" alt="Kit 5 Ursinho Pelúcia Pendente De Natal Enfeite Para Árvore Decoração Natalina" loading="lazy"></div>
+<div class="info"><h3>Kit 5 Ursinho Pelúcia Pendente De Natal Enfeite Para Árvore Decoração Natalina</h3>
+<p class="preco">R$ 64,99</p>
+<p class="meta">746 vendidos, nota 4.9</p>
+<span class="botao">Ver na Shopee</span></div></a></main>
+<p class="vazio" id="vazio">Nenhum produto encontrado para essa busca.</p>
+<footer>Atualizado em 03/11/2026. Como afiliado da Shopee, posso receber comissão pelas compras feitas pelos links desta página, sem custo extra para você. Preços e disponibilidade podem mudar na Shopee.</footer>
+<script>
+const b=document.getElementById('busca'),itens=[...document.querySelectorAll('.item')],v=document.getElementById('vazio');
+b.addEventListener('input',()=>{const t=b.value.trim().toLowerCase();let n=0;
+itens.forEach(i=>{const ok=i.dataset.nome.includes(t);i.style.display=ok?'':'none';if(ok)n++});
+v.style.display=n?'none':'block'});
+</script></body></html>
