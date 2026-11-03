@@ -13,7 +13,7 @@ def carregar_config():
     cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     for chave in ["shopee_app_id", "shopee_secret", "pinterest_token", "pinterest_board_id"]:
         if os.environ.get(chave.upper()):
-            cfg[chave] = os.environ[chave.upper()]
+            cfg[chave] = os.environ[chave.upper()].strip()
     return cfg
 
 
