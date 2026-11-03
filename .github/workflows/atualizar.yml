@@ -23,7 +23,8 @@ jobs:
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add docs
-          if [ -f ja_postados.json ]; then git add ja_postados.json; fi
+          if [ -f ja_postados.json ]; then git add ja_postados.json;
+fi
           git commit -m "Atualiza ofertas" || echo "Sem mudanças"
           git pull --rebase
           git push
